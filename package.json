@@ -1,0 +1,28 @@
+{
+  "name": "cmte",
+  "version": "0.0.0",
+  "description": "cmte is a browser-based text editor",
+  "homepage": "https://github.com/maks/cmte",
+  "scripts": {
+    "test": "test.js"
+  },
+  "bin": {
+    "cmte": "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maks/cmte.git"
+  },
+  "keywords": [
+    "texteditor",
+    "codemirror",
+    "browser"
+  ],
+  "author": "'Maksim Lin' <maks@manichord.com>",
+  "license": "GPLv3",
+  "readmeFilename": "README.md",
+  "dependencies": {    
+      "code-mirror" : "3.19.0",
+      "underscore"  : "1.5.2"
+  }
+}
