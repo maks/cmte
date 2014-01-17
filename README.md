@@ -10,6 +10,10 @@ text editor component.
 The name cmte is a homage to my long cross-platform text editor SciTE,
 which was named after its key text editor component Scintilla.
 
+## Building
+
+currently build step is `browserify -r ./cmte.js > bundle.js`
+
 ## License
 
 Copyright 2013 Maksim Lin

@@ -21,6 +21,9 @@
   "author": "'Maksim Lin' <maks@manichord.com>",
   "license": "GPLv3",
   "readmeFilename": "README.md",
+  devDependencies: {    
+      "browserify" : ""
+  }, 
   "dependencies": {    
       "code-mirror" : "3.19.0",
       "underscore"  : "1.5.2"
