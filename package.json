@@ -21,7 +21,7 @@
   "author": "'Maksim Lin' <maks@manichord.com>",
   "license": "GPLv3",
   "readmeFilename": "README.md",
-  devDependencies: {    
+  "devDependencies"": {    
       "browserify" : ""
   }, 
   "dependencies": {    
