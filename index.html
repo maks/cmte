@@ -1,0 +1,34 @@
+<!doctype html>
+
+<title>CodeMirror: JavaScript mode</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="node_modules/code-mirror/codemirror.css">
+<link rel="stylesheet" href="node_modules/code-mirror/addon/lint/lint.css">
+<script src="jquery-2.0.3.min.js"></script>
+<style type="text/css">
+.CodeMirror {
+  border-top: 1px solid black; border-bottom: 1px solid black;
+  font-size: xxlarge;
+}
+.CodeMirror-activeline-background {background: #F00;}
+
+h1 {
+  font-size: medium;
+}
+</style>
+
+<h1 id="docTitle">untitled - cmte</h1>
+
+<div><textarea id="code" name="code">
+
+function StringStream(string) {
+  this.pos = 0;
+  this.string = string;
+}
+</textarea></div>
+    <script src="bundle.js"></script>
+    <script>
+      var cmte = require('./cmte.js');
+    </script>
+</body>
+</html>
